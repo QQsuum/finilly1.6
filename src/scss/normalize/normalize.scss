@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-family:'TTLakes-Regular',
+    sans-serif;
+
+  }
+  
+  * { 
+      margin: 0;
+      padding: 0;
+     
+   
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+      margin: 0;}
+  
+  body{
+  min-width: 320px;
+  overflow-x: hidden;
+  
+  }
+  
+  

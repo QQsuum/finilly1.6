@@ -1,0 +1,22 @@
+.button {
+	border: none;
+	background-color: transparent;
+    transition: 0.2s;
+
+    & img {
+        height: 40px;
+        width: 40px;	
+        border-radius: [object Object]px;
+
+    }
+
+    &:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+    
+        transform: scale(1.1);
+        cursor: pointer;
+  }
+
+}

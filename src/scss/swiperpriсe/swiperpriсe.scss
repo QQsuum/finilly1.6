@@ -1,0 +1,38 @@
+.price-cart {
+  margin: 16px 0 16px 16px !important;
+  background-color: #fff;
+  display: inline-block;
+  width:260px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  min-height: 180px;
+  @media (min-width: 767px) {
+    display: none;
+  }
+
+  &__title {
+    color: #7E7E82;
+  }
+  &__description {
+    margin-bottom: 16px;
+    & img {
+      position: absolute;
+      right: 16px;
+      bottom: 18px;
+    }
+
+  }
+
+
+& .swiper-wrapper{
+  
+}
+& .swiper-slide {
+  width: 260px;
+
+  
+ 
+}
+
+}

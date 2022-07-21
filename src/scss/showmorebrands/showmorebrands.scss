@@ -1,0 +1,64 @@
+.show-more-brands {
+	display: none;
+	border: none;
+	background-color: transparent;
+	margin-top: 8px;
+	margin-bottom: 24px;
+	 
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+@media (min-width:  767px) {
+		
+        display: block;
+        margin-left: 24px;
+    
+}
+
+@media (min-width:  1440px) {
+    
+        display: block;
+        margin-left: 32px;
+}
+
+
+
+
+&:hover {
+	animation-name: link-animation;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	cursor: pointer;
+    opacity: 60%;
+
+@keyframes link-animation {
+	0% {
+		transform: scale(1) ;
+		opacity: 1;
+	}
+	50% { 
+		transform: scale(0.9);
+		 opacity:  0.8; 
+	}
+	100% {
+		transform: scale(1);
+	 	opacity: 1; 
+		color: #7E7E82; 
+		}
+	}
+	
+
+}
+
+
+&__image {
+		margin-right: 17px;
+		transition-duration: 0.5s;
+	}
+
+&__image--rotate {
+		transform: rotate(180deg);
+		
+	}
+}
